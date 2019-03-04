@@ -2,7 +2,7 @@ var express = require('express');
 var app = express();
 
 app.get('/', function(req, res) {
-  res.end('hello world');
+  res.end('hello hutul');
 });
 
 app.get('/:id', function(req, res) {
