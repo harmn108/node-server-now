@@ -10,7 +10,11 @@ app.get('/user/:id', function(req, res) {
 });
 
 app.get('/:id', function(req, res) {
-    res.end('hello hutul with id: ' + req.params.id);
+    res.end('hello world with id: ' + req.params.id);
+});
+
+app.get('/driver/:id', function(req, res) {
+  res.end('hello driver with id: ' + req.params.id);
 });
 
 module.exports = app;
